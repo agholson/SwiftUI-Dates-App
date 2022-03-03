@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752BE9A327D0803400F811F0 /* datesChallenge.png in Resources */ = {isa = PBXBuildFile; fileRef = 752BE9A227D0803400F811F0 /* datesChallenge.png */; };
 		75F7D7A727D0694100FDD182 /* Dates_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7D7A627D0694100FDD182 /* Dates_AppApp.swift */; };
 		75F7D7A927D0694100FDD182 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7D7A827D0694100FDD182 /* ContentView.swift */; };
 		75F7D7AB27D0694100FDD182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F7D7AA27D0694100FDD182 /* Assets.xcassets */; };
 		75F7D7AE27D0694100FDD182 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F7D7AD27D0694100FDD182 /* Preview Assets.xcassets */; };
+		75F7D7B627D069E300FDD182 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7D7B527D069E300FDD182 /* DateView.swift */; };
+		75F7D7B827D06C3F00FDD182 /* DateRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7D7B727D06C3F00FDD182 /* DateRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		752BE9A027D07FC400F811F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		752BE9A227D0803400F811F0 /* datesChallenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datesChallenge.png; sourceTree = "<group>"; };
 		75F7D7A327D0694100FDD182 /* Dates App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dates App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F7D7A627D0694100FDD182 /* Dates_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates_AppApp.swift; sourceTree = "<group>"; };
 		75F7D7A827D0694100FDD182 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75F7D7AA27D0694100FDD182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F7D7AD27D0694100FDD182 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75F7D7B527D069E300FDD182 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		75F7D7B727D06C3F00FDD182 /* DateRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		752BE9A127D07FF100F811F0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				752BE9A227D0803400F811F0 /* datesChallenge.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		75F7D79A27D0694100FDD182 = {
 			isa = PBXGroup;
 			children = (
+				752BE9A027D07FC400F811F0 /* README.md */,
+				752BE9A127D07FF100F811F0 /* img */,
 				75F7D7A527D0694100FDD182 /* Dates App */,
 				75F7D7A427D0694100FDD182 /* Products */,
 			);
@@ -52,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				75F7D7A627D0694100FDD182 /* Dates_AppApp.swift */,
-				75F7D7A827D0694100FDD182 /* ContentView.swift */,
+				75F7D7B427D069B900FDD182 /* Views */,
 				75F7D7AA27D0694100FDD182 /* Assets.xcassets */,
 				75F7D7AC27D0694100FDD182 /* Preview Content */,
 			);
@@ -65,6 +82,16 @@
 				75F7D7AD27D0694100FDD182 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75F7D7B427D069B900FDD182 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75F7D7A827D0694100FDD182 /* ContentView.swift */,
+				75F7D7B527D069E300FDD182 /* DateView.swift */,
+				75F7D7B727D06C3F00FDD182 /* DateRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +154,7 @@
 			files = (
 				75F7D7AE27D0694100FDD182 /* Preview Assets.xcassets in Resources */,
 				75F7D7AB27D0694100FDD182 /* Assets.xcassets in Resources */,
+				752BE9A327D0803400F811F0 /* datesChallenge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F7D7B627D069E300FDD182 /* DateView.swift in Sources */,
+				75F7D7B827D06C3F00FDD182 /* DateRowView.swift in Sources */,
 				75F7D7A927D0694100FDD182 /* ContentView.swift in Sources */,
 				75F7D7A727D0694100FDD182 /* Dates_AppApp.swift in Sources */,
 			);
