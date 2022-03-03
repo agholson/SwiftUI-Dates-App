@@ -45,7 +45,7 @@ struct DateRowView: View {
                 
                 // Create a small gray divider 50 pixels high
                 Divider()
-                    .frame(maxHeight: 30)
+                    .frame(maxHeight: 40)
             }
             .frame(width: 40)
             
